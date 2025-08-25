@@ -1,4 +1,12 @@
 # Mustafa's Portfolio — Skills Sprints 2025
+# Learning & Projects — Actively Updating
+
+I graduated in Sept 2024 and took a short break. I’m now rebuilding my skills with a simple,
+daily routine and three focused projects. This repo shows my plan and progress.
+
+Target roles: Junior Data Analyst, Junior Data Scientist, Junior AI/Data Consultant  
+Status: Reboot in progress — small commits 5–7 days/week  
+Last updated: 24 Aug 2025
 
 This repo tracks my upskilling and projects across three target roles:
 - **Junior Data Analyst** (SQL, Power BI & DAX, storytelling)
