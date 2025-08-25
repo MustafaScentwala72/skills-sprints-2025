@@ -73,3 +73,11 @@ df.to_csv("data/outputs/customers_with_buckets.csv", index=False)
 country_totals.to_csv("data/outputs/country_totals.csv")
 country_avg.to_csv("data/outputs/country_avg.csv")
 print("\nSaved files in data/outputs/")
+
+import matplotlib.pyplot as plt
+
+ax = country_totals.plot(kind="bar")
+plt.title("Spend by Country")
+plt.tight_layout()
+plt.savefig("data/outputs/spend_by_country.png")
+print("Saved chart: data/outputs/spend_by_country.png")
