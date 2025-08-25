@@ -28,3 +28,17 @@ print(df.groupby("Country")["Spend"].sum())
 df["HighSpender"] = df["Spend"] > 150
 print("\n=== With HighSpender flag ===")
 print(df)
+
+# 5) Only UK rows
+uk = df[df["Country"] == "UK"]
+print("\n=== UK only ===")
+print(uk)
+
+# 6) Average spend across all customers
+print("\n=== Average spend ===")
+print(df["Spend"].mean())
+
+# 7) Top spender (name + amount)
+top = df.loc[df["Spend"].idxmax(), ["Name", "Spend"]]
+print("\n=== Top spender ===")
+print(top.to_string(index=False))
